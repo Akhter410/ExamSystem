@@ -11,11 +11,10 @@ This is a mini online exam management system built with **Laravel**, supporting 
 ### Laravel Project Setup
 - composer create-project laravel/laravel exam-system
 
-### Authentication
+# 1. Authentication
 - composer require laravel/ui
 - php artisan ui bootstrap --auth
 - npm install && npm run dev
-- composer require laravel/passport
 
 # 2. Run migrations
 php artisan migrate
@@ -24,7 +23,7 @@ php artisan migrate
 php artisan passport:install
 
 
-### Database & Models
+# 4. Database & Models
 - php artisan make:migration add_role_to_users
 
 
