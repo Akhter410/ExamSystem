@@ -6,6 +6,28 @@ This is a mini online exam management system built with **Laravel**, supporting 
 
 ## Features
 
+## Installed Commands & Libraries List
+
+### Laravel Project Setup
+- composer create-project laravel/laravel exam-system
+
+### Authentication
+- composer require laravel/ui
+- php artisan ui bootstrap --auth
+- npm install && npm run dev
+- composer require laravel/passport
+
+# 2. Run migrations
+php artisan migrate
+
+# 3. Install encryption keys and clients
+php artisan passport:install
+
+
+### Database & Models
+- php artisan make:migration add_role_to_users
+
+
 ### Admin
 - CRUD for Categories, Subcategories, Subjects, and Questions (Web UI using Blade)
 - MCQ Questions: 4 options + select correct answer
